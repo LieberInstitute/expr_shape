@@ -7,3 +7,6 @@ rse_exon_brain.Rdata
 ## Ignore hidden bash files
 .*.sh
 
+## Ignore log files
+logs
+brain_bws.txt
