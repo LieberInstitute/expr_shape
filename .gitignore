@@ -1,0 +1,9 @@
+## Ignore large files
+*.bw
+*/region_cuts.Rdata
+*/region_cuts_raw.Rdata
+rse_exon_brain.Rdata
+
+## Ignore hidden bash files
+.*.sh
+
