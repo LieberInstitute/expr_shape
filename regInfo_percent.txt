@@ -1,0 +1,56 @@
+**** JHPCE info ****
+User: apeterso
+Job id: 4444208
+Job name: regInfo_percent.sh
+Hostname: compute-049
+Task id: 
+Tue Feb  6 13:01:18 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-06 13:01:25 loading ./amygdala/region_info.Rdata
+2018-02-06 13:01:25 loading ./anteriorcingulatecortexba24/region_info.Rdata
+2018-02-06 13:01:25 loading ./brain_outfile/region_info.Rdata
+2018-02-06 13:01:25 loading ./caudatebasalganglia/region_info.Rdata
+2018-02-06 13:01:25 loading ./cortex/region_info.Rdata
+2018-02-06 13:01:25 loading ./frontalcortexba9/region_info.Rdata
+2018-02-06 13:01:25 loading ./hippocampus/region_info.Rdata
+2018-02-06 13:01:25 loading ./hypothalamus/region_info.Rdata
+2018-02-06 13:01:25 loading ./nucleusaccumbensbasalganglia/region_info.Rdata
+2018-02-06 13:01:25 loading ./putamenbasalganglia/region_info.Rdata
+2018-02-06 13:01:25 loading ./spinalcordcervicalc-1/region_info.Rdata
+2018-02-06 13:01:25 loading ./substantianigra/region_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  2.454   0.134   9.573 
+[1] "2018-02-06 13:01:27 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Tue Feb  6 13:01:27 EST 2018
+**** JHPCE info ****
+User: apeterso
+Job id: 4444210
+Job name: regInfo_percent.sh
+Hostname: compute-092
+Task id: 
+Tue Feb  6 13:02:47 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-06 13:02:54 loading ./amygdala/region_info.Rdata
+2018-02-06 13:02:54 loading ./anteriorcingulatecortexba24/region_info.Rdata
+2018-02-06 13:02:54 loading ./brain_outfile/region_info.Rdata
+2018-02-06 13:02:54 loading ./caudatebasalganglia/region_info.Rdata
+2018-02-06 13:02:54 loading ./cortex/region_info.Rdata
+2018-02-06 13:02:54 loading ./frontalcortexba9/region_info.Rdata
+2018-02-06 13:02:54 loading ./hippocampus/region_info.Rdata
+2018-02-06 13:02:54 loading ./hypothalamus/region_info.Rdata
+2018-02-06 13:02:54 loading ./nucleusaccumbensbasalganglia/region_info.Rdata
+2018-02-06 13:02:54 loading ./putamenbasalganglia/region_info.Rdata
+2018-02-06 13:02:54 loading ./spinalcordcervicalc-1/region_info.Rdata
+2018-02-06 13:02:54 loading ./substantianigra/region_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  1.956   0.162   8.836 
+[1] "2018-02-06 13:02:55 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Tue Feb  6 13:02:55 EST 2018
