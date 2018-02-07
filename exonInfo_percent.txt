@@ -1,0 +1,60 @@
+**** JHPCE info ****
+User: apeterso
+Job id: 4444209
+Job name: exonInfo_percent.sh
+Hostname: compute-048
+Task id: 
+Tue Feb  6 13:01:32 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-06 13:01:39 loading ./amygdala/exon_info.Rdata
+2018-02-06 13:01:39 loading ./anteriorcingulatecortexba24/exon_info.Rdata
+2018-02-06 13:01:39 loading ./brain_outfile/exon_info.Rdata
+2018-02-06 13:01:39 loading ./caudatebasalganglia/exon_info.Rdata
+2018-02-06 13:01:39 loading ./cerebellarhemisphere/exon_info.Rdata
+2018-02-06 13:01:39 loading ./cerebellum/exon_info.Rdata
+2018-02-06 13:01:39 loading ./cortex/exon_info.Rdata
+2018-02-06 13:01:39 loading ./frontalcortexba9/exon_info.Rdata
+2018-02-06 13:01:40 loading ./hippocampus/exon_info.Rdata
+2018-02-06 13:01:40 loading ./hypothalamus/exon_info.Rdata
+2018-02-06 13:01:40 loading ./nucleusaccumbensbasalganglia/exon_info.Rdata
+2018-02-06 13:01:40 loading ./putamenbasalganglia/exon_info.Rdata
+2018-02-06 13:01:40 loading ./spinalcordcervicalc-1/exon_info.Rdata
+2018-02-06 13:01:40 loading ./substantianigra/exon_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  2.583   0.138  15.057 
+[1] "2018-02-06 13:01:47 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Tue Feb  6 13:01:47 EST 2018
+**** JHPCE info ****
+User: apeterso
+Job id: 4444211
+Job name: exonInfo_percent.sh
+Hostname: compute-056
+Task id: 
+Tue Feb  6 13:03:01 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-06 13:03:08 loading ./amygdala/exon_info.Rdata
+2018-02-06 13:03:08 loading ./anteriorcingulatecortexba24/exon_info.Rdata
+2018-02-06 13:03:08 loading ./brain_outfile/exon_info.Rdata
+2018-02-06 13:03:08 loading ./caudatebasalganglia/exon_info.Rdata
+2018-02-06 13:03:08 loading ./cerebellarhemisphere/exon_info.Rdata
+2018-02-06 13:03:08 loading ./cerebellum/exon_info.Rdata
+2018-02-06 13:03:08 loading ./cortex/exon_info.Rdata
+2018-02-06 13:03:08 loading ./frontalcortexba9/exon_info.Rdata
+2018-02-06 13:03:08 loading ./hippocampus/exon_info.Rdata
+2018-02-06 13:03:08 loading ./hypothalamus/exon_info.Rdata
+2018-02-06 13:03:08 loading ./nucleusaccumbensbasalganglia/exon_info.Rdata
+2018-02-06 13:03:08 loading ./putamenbasalganglia/exon_info.Rdata
+2018-02-06 13:03:08 loading ./spinalcordcervicalc-1/exon_info.Rdata
+2018-02-06 13:03:08 loading ./substantianigra/exon_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  1.930   0.137   8.741 
+[1] "2018-02-06 13:03:10 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Tue Feb  6 13:03:10 EST 2018
