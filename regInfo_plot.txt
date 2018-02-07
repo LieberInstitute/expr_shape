@@ -26,3 +26,31 @@ null device
 Error in session_info() : could not find function "session_info"
 Execution halted
 Wed Jan 31 13:44:24 EST 2018
+**** JHPCE info ****
+User: apeterso
+Job id: 4444193
+Job name: regInfo_plot.sh
+Hostname: compute-076
+Task id: 
+Tue Feb  6 12:36:36 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-06 12:36:40 loading ./amygdala/region_info.Rdata
+2018-02-06 12:36:40 loading ./anteriorcingulatecortexba24/region_info.Rdata
+2018-02-06 12:36:40 loading ./brain_outfile/region_info.Rdata
+2018-02-06 12:36:40 loading ./caudatebasalganglia/region_info.Rdata
+2018-02-06 12:36:40 loading ./cortex/region_info.Rdata
+2018-02-06 12:36:40 loading ./frontalcortexba9/region_info.Rdata
+2018-02-06 12:36:41 loading ./hippocampus/region_info.Rdata
+2018-02-06 12:36:41 loading ./hypothalamus/region_info.Rdata
+2018-02-06 12:36:41 loading ./nucleusaccumbensbasalganglia/region_info.Rdata
+2018-02-06 12:36:41 loading ./putamenbasalganglia/region_info.Rdata
+2018-02-06 12:36:41 loading ./spinalcordcervicalc-1/region_info.Rdata
+2018-02-06 12:36:41 loading ./substantianigra/region_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  2.092   0.198   6.862 
+[1] "2018-02-06 12:36:43 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Tue Feb  6 12:36:43 EST 2018
