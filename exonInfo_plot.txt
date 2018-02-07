@@ -28,3 +28,33 @@ null device
 Error in session_info() : could not find function "session_info"
 Execution halted
 Wed Jan 31 13:44:49 EST 2018
+**** JHPCE info ****
+User: apeterso
+Job id: 4444195
+Job name: exonInfo_plot.sh
+Hostname: compute-107
+Task id: 
+Tue Feb  6 12:36:50 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-06 12:36:51 loading ./amygdala/exon_info.Rdata
+2018-02-06 12:36:51 loading ./anteriorcingulatecortexba24/exon_info.Rdata
+2018-02-06 12:36:51 loading ./brain_outfile/exon_info.Rdata
+2018-02-06 12:36:51 loading ./caudatebasalganglia/exon_info.Rdata
+2018-02-06 12:36:52 loading ./cerebellarhemisphere/exon_info.Rdata
+2018-02-06 12:36:52 loading ./cerebellum/exon_info.Rdata
+2018-02-06 12:36:52 loading ./cortex/exon_info.Rdata
+2018-02-06 12:36:52 loading ./frontalcortexba9/exon_info.Rdata
+2018-02-06 12:36:52 loading ./hippocampus/exon_info.Rdata
+2018-02-06 12:36:52 loading ./hypothalamus/exon_info.Rdata
+2018-02-06 12:36:52 loading ./nucleusaccumbensbasalganglia/exon_info.Rdata
+2018-02-06 12:36:52 loading ./putamenbasalganglia/exon_info.Rdata
+2018-02-06 12:36:52 loading ./spinalcordcervicalc-1/exon_info.Rdata
+2018-02-06 12:36:52 loading ./substantianigra/exon_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  1.790   0.127   2.773 
+[1] "2018-02-06 12:36:53 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Tue Feb  6 12:36:53 EST 2018
