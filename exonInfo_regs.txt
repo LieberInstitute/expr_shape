@@ -1,0 +1,30 @@
+**** JHPCE info ****
+User: apeterso
+Job id: 4449503
+Job name: exonInfo_regs.sh
+Hostname: compute-045
+Task id: 
+Thu Feb  8 17:31:26 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-08 17:31:33 loading ./amygdala/exon_info.Rdata
+2018-02-08 17:31:33 loading ./anteriorcingulatecortexba24/exon_info.Rdata
+2018-02-08 17:31:34 loading ./brain_outfile/exon_info.Rdata
+2018-02-08 17:31:34 loading ./caudatebasalganglia/exon_info.Rdata
+2018-02-08 17:31:34 loading ./cerebellarhemisphere/exon_info.Rdata
+2018-02-08 17:31:34 loading ./cerebellum/exon_info.Rdata
+2018-02-08 17:31:34 loading ./cortex/exon_info.Rdata
+2018-02-08 17:31:34 loading ./frontalcortexba9/exon_info.Rdata
+2018-02-08 17:31:34 loading ./hippocampus/exon_info.Rdata
+2018-02-08 17:31:34 loading ./hypothalamus/exon_info.Rdata
+2018-02-08 17:31:34 loading ./nucleusaccumbensbasalganglia/exon_info.Rdata
+2018-02-08 17:31:34 loading ./putamenbasalganglia/exon_info.Rdata
+2018-02-08 17:31:34 loading ./spinalcordcervicalc-1/exon_info.Rdata
+2018-02-08 17:31:34 loading ./substantianigra/exon_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  2.478   0.141  20.407 
+[1] "2018-02-08 17:31:46 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Thu Feb  8 17:31:47 EST 2018

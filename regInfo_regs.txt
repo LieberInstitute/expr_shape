@@ -1,0 +1,28 @@
+**** JHPCE info ****
+User: apeterso
+Job id: 4449502
+Job name: regInfo_regs.sh
+Hostname: compute-077
+Task id: 
+Thu Feb  8 17:31:26 EST 2018
+Using the following user library: ~/R/x86_64-pc-linux-gnu-library/3.4.x
+2018-02-08 17:31:35 loading ./amygdala/region_info.Rdata
+2018-02-08 17:31:35 loading ./anteriorcingulatecortexba24/region_info.Rdata
+2018-02-08 17:31:35 loading ./brain_outfile/region_info.Rdata
+2018-02-08 17:31:35 loading ./caudatebasalganglia/region_info.Rdata
+2018-02-08 17:31:35 loading ./cortex/region_info.Rdata
+2018-02-08 17:31:35 loading ./frontalcortexba9/region_info.Rdata
+2018-02-08 17:31:35 loading ./hippocampus/region_info.Rdata
+2018-02-08 17:31:35 loading ./hypothalamus/region_info.Rdata
+2018-02-08 17:31:35 loading ./nucleusaccumbensbasalganglia/region_info.Rdata
+2018-02-08 17:31:35 loading ./putamenbasalganglia/region_info.Rdata
+2018-02-08 17:31:35 loading ./spinalcordcervicalc-1/region_info.Rdata
+2018-02-08 17:31:35 loading ./substantianigra/region_info.Rdata
+null device 
+          1 
+   user  system elapsed 
+  2.737   0.179  11.769 
+[1] "2018-02-08 17:31:38 EST"
+Error in session_info() : could not find function "session_info"
+Execution halted
+Thu Feb  8 17:31:38 EST 2018
