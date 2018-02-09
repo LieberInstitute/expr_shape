@@ -42,8 +42,12 @@ names(passing) <- cuts
 
 meanLength <- sapply(passing, function(i) { if(length(i) == 0) return (0); mean(exonic_length[i]) })
 
+medianLength <- sapply(passing, function(i) { if(length(i) == 0) return (0); median(exonic_length[i]) })
+
+iqrLength <- sapply(passing, function(i) { if(length(i) == 0) return (0); IQR(exonic_length[i]) })
+
 #Combine information into data frame 
-exonInfo <- data.frame( cutoff = cuts, mean = meanLength, tissue = subtissue_outfile, n = sapply(passing, length), stringsAsFactors = FALSE)
+exonInfo <- data.frame( cutoff = cuts, mean = meanLength, median = medianLength, IQR = iqrLength, tissue = subtissue_outfile, n = sapply(passing, length), stringsAsFactors = FALSE)
 
 exonInfo$percent <- exonInfo$mean * exonInfo$n / sum(as.numeric(chrInfo$length)) * 100
 

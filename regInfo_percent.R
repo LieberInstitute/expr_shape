@@ -13,9 +13,24 @@ load_info <- function(f) {
 }
 regInfo <- do.call(rbind, lapply(files, load_info))
 regInfo$percent <- regInfo$mean * regInfo$n / sum(as.numeric(chrInfo$length)) * 100
-pdf('pdf/regInfo_percent.pdf')
-ggplot(regInfo, aes(x = cutoff, y = percent, color = tissue)) + geom_point(size = 0.8) + geom_line() + scale_colour_manual(name = "Tissue", breaks = c("hypothalamus", "substantianigra", "amygdala", "hippocampus", "caudatebasalganglia", "nucleusaccumbensbasalganglia", "putamenbasalganglia", "anteriorcingulatecortexba24", "frontalcortexba9", "cortex", "spinalcordcervicalc-1", "brain_outfile"), labels = c("Hypothalamus", "Substantia Nigra", "Amygdala", "Hippocampus", "Basal Ganglia - Caudate", "Basal Ganglia - Nucleus Accumbens", "Basal Ganglia - Putamen", "Anterior Cingulate Cortex", "Frontal Cortex", "Cortex", "Spinal Cord (Cervical C-1)", "Brain"), values = c("#66CC00","#FF6600", "#999999", "#3399CC", "#CC6633", "#FF3333", "#336600", "#9933CC", "#0000FF", "#006699", "#990033", "#FFCC00")) + ylab('Percent of the genome')
+pdf('pdf/regInfo_percent.pdf', width = 14)
+ggplot(regInfo, aes(x = cutoff, y = percent, color = tissue)) + geom_point(size = 0.8) + geom_line() + scale_colour_manual(name = "Tissue", breaks = c("hypothalamus", "substantianigra", "amygdala", "hippocampus", "caudatebasalganglia", "nucleusaccumbensbasalganglia", "putamenbasalganglia", "anteriorcingulatecortexba24", "frontalcortexba9", "cortex", "spinalcordcervicalc-1", "brain_outfile"), labels = c("Hypothalamus", "Substantia Nigra", "Amygdala", "Hippocampus", "Basal Ganglia - Caudate", "Basal Ganglia - Nucleus Accumbens", "Basal Ganglia - Putamen", "Anterior Cingulate Cortex", "Frontal Cortex", "Cortex", "Spinal Cord (Cervical C-1)", "Brain"), values = c("#66CC00","#FF6600", "#999999", "#3399CC", "#CC6633", "#FF3333", "#336600", "#9933CC", "#0000FF", "#006699", "#990033", "#FFCC00")) + ylab('Percent of the genome') + theme_grey(base_size = 18)
 
+dev.off()
+
+colnames(regInfo)[colnames(regInfo) == '50%'] <- 'median'
+
+## I don't have write priveleges on these folders yet
+#pdf('pdf/regInfo_median_width.pdf', width = 14)
+pdf('~/regInfo_median_width.pdf', width = 14)
+ggplot(regInfo, aes(x = cutoff, y = median, color = tissue)) + geom_point(size = 0.8) + geom_line() + scale_colour_manual(name = "Tissue", breaks = c("hypothalamus", "substantianigra", "amygdala", "hippocampus", "caudatebasalganglia", "nucleusaccumbensbasalganglia", "putamenbasalganglia", "anteriorcingulatecortexba24", "frontalcortexba9", "cortex", "spinalcordcervicalc-1", "brain_outfile"), labels = c("Hypothalamus", "Substantia Nigra", "Amygdala", "Hippocampus", "Basal Ganglia - Caudate", "Basal Ganglia - Nucleus Accumbens", "Basal Ganglia - Putamen", "Anterior Cingulate Cortex", "Frontal Cortex", "Cortex", "Spinal Cord (Cervical C-1)", "Brain"), values = c("#66CC00","#FF6600", "#999999", "#3399CC", "#CC6633", "#FF3333", "#336600", "#9933CC", "#0000FF", "#006699", "#990033", "#FFCC00")) + ylab('Median ER length in bp') + theme_grey(base_size = 18)
+dev.off()
+
+regInfo$IQRlike <- regInfo[, '80%'] - regInfo[, '20%']
+
+#pdf('pdf/regInfo_IQR_like.pdf', width = 14)
+pdf('~/regInfo_IQR_like.pdf', width = 14)
+ggplot(regInfo, aes(x = cutoff, y = IQRlike, color = tissue)) + geom_point(size = 0.8) + geom_line() + scale_colour_manual(name = "Tissue", breaks = c("hypothalamus", "substantianigra", "amygdala", "hippocampus", "caudatebasalganglia", "nucleusaccumbensbasalganglia", "putamenbasalganglia", "anteriorcingulatecortexba24", "frontalcortexba9", "cortex", "spinalcordcervicalc-1", "brain_outfile"), labels = c("Hypothalamus", "Substantia Nigra", "Amygdala", "Hippocampus", "Basal Ganglia - Caudate", "Basal Ganglia - Nucleus Accumbens", "Basal Ganglia - Putamen", "Anterior Cingulate Cortex", "Frontal Cortex", "Cortex", "Spinal Cord (Cervical C-1)", "Brain"), values = c("#66CC00","#FF6600", "#999999", "#3399CC", "#CC6633", "#FF3333", "#336600", "#9933CC", "#0000FF", "#006699", "#990033", "#FFCC00")) + ylab('IQR like (20 to 80%) ER length in bp') + theme_grey(base_size = 18)
 dev.off()
 
 proc.time()
