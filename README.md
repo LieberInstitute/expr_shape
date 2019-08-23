@@ -1,4 +1,5 @@
 # expr_shape
+[![DOI](https://zenodo.org/badge/111129441.svg)](https://zenodo.org/badge/latestdoi/111129441)
 
 JHPCE location: `/dcl01/ajaffe/data/lab/expr_shape`
 
